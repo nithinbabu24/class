@@ -18,7 +18,7 @@ for i in grocery:
     x(i)
 
 def count_characters(items):
-    if not items:   # base case: empty list
+    if not items:   
         return 0
     return len(items[0]) + count_characters(items[1:])
 
