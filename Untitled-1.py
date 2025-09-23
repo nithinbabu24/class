@@ -46,7 +46,7 @@ for course, count in enrollment_data.items():
     print(f"Course: {course}, Students: {count}")
 print()
 
-# Using dictionary comprehension to double student numbers (simulated growth)
+
 expected_growth = {course: count * 2 for course, count in enrollment_data.items()}
 print("Expected enrollment after growth:")
 for course, count in expected_growth.items():
